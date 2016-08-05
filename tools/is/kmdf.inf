@@ -1,0 +1,8 @@
+[Version]
+Signature="$WINDOWS NT$"
+
+[WdfSection]
+KmdfService = dummy, dummy_wdfsect
+
+[dummy_wdfsect]
+KmdfLibraryVersion = 1.5

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>hvintegrationservices</id>
+    <title>Microsoft Hyper-V Integration Services</title>
+    <version>6.3.9600.17831</version>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <summary>Microsoft Hyper-V Integration Services</summary>
+    <description> "Hyper-V integration services, are a bundled set of software which, when installed in the virtual machine improves integration between the host server and the virtual machine. Integration services come pre-installed in most supported guest operating systems."</description>
+    <projectUrl>https://technet.microsoft.com/en-us/library/dn798297(v=ws.11).aspx</projectUrl>
+    <packageSourceUrl>https://technet.microsoft.com/en-us/library/dn798297(v=ws.11).aspx</packageSourceUrl>
+    <docsUrl>https://technet.microsoft.com/en-us/library/dn798297(v=ws.11).aspx</docsUrl>
+    <!--<projectSourceUrl></projectSourceUrl>
+    <mailingListUrl></mailingListUrl>
+    <bugTrackerUrl></bugTrackerUrl>-->
+    <tags>hyper-v microsoft driver services integration eleader</tags>
+    <copyright>Microsoft</copyright>
+    <licenseUrl>https://technet.microsoft.com/en-us/library/dn798297(v=ws.11).aspx</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://technet.microsoft.com/en-us/library/dn798297(v=ws.11).aspx</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
