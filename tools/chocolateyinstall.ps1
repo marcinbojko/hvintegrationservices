@@ -12,11 +12,12 @@ $killexecprocess    = ""
 
 # 60004 - correct version of HV Integration Services exists
 # 60001 - install only in Hyper-V machines
+
 $packageArgs = @{
   packageName   = $packageName
   fileType      = 'exe'
   silentArgs    = "/quiet /norestart"
-  validExitCodes= @(0,60004)
+  validExitCodes= @(0,60004,60001)
   file          = $fileFullPath
 }
 

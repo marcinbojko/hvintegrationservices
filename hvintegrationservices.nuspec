@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>hvintegrationservices</id>
     <title>Microsoft Hyper-V Integration Services</title>
-    <version>6.3.9600.17831</version>
+    <version>6.3.9600.18398</version>
     <authors>Microsoft</authors>
     <owners>Microsoft</owners>
     <summary>Microsoft Hyper-V Integration Services</summary>
