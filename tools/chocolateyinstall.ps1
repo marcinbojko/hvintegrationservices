@@ -6,7 +6,7 @@ $scriptPath         = $PSScriptRoot
 $fileFullPath       = Join-Path $scriptPath '\is\setup.exe'
 $killexec           = 0
 $killexecprocess    = ""
-$validExitCodes     = @(0,60004,3010)
+$validExitCodes     = @(0,60004,60001,3010)
 
 #error validExitCodes
 
@@ -27,12 +27,7 @@ if ($killexec) {
   Stop-Process -processname $killexecprocess -force
   } 
 
- if ($validExitCodes -NotContains (Install-ChocolateyInstallPackage @packageArgs).ExitCode)
-        { 
-            Throw " 60004 - correct version of HV Integration Services exists,  60001 - install only in Hyper-V machines, 3010 - reboot required"
-        }
-
-  
+ Install-ChocolateyInstallPackage @packageArgs
 
 
 
