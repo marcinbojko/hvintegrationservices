@@ -10,6 +10,10 @@ Features
 * Supports ONLY 64-bit version
 
 
+
+#### 2016-08-16 Build 6.3.9600.18398
+* added $validExitCodes = @(0,60004,3010)
+
 #### 2016-08-04 Build 6.3.9600.18398
 * version change due to KB3172614
 
@@ -33,4 +37,4 @@ hvintegrationservices:
   uninstall_options: "--force --all-versions"
   provider: chocolatey
   source: https://www.myget.org/F/eleader/
-```  
+```  virtu
